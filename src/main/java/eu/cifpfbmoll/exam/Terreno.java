@@ -14,9 +14,9 @@ import java.util.Scanner;
  */
 public class Terreno extends Inmueble {
 
-    public static float IVARustico = (float) 4;
-    public static float IVAUrbano = (float) 6;
-    public static float IVAUrbanizable = (float) 8;
+    public final static float IVARustico = (float) 4;
+    public final static float IVAUrbano = (float) 6;
+    public final static float IVAUrbanizable = (float) 8;
     private Calificacion tipoCalificacion;
 
     public Terreno() {

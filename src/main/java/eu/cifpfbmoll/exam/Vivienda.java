@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @author rafa
  */
 public class Vivienda extends Inmueble {
-    public static float IVAVivienda =(float) 10;
+    public final static float IVAVivienda =(float) 10;
     private int numHabitaciones;
     private String descripcion;
 
